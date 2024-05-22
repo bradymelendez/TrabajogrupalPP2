@@ -22,14 +22,6 @@ public class LevelLoad: MonoBehaviour
             }
         });
     }
-    public void LoadScene()
-    {
-        SceneManager.LoadScene("Level");
-    }
-    public void LoadScene2()
-    {
-        SceneManager.LoadScene("MainMenu");
-    }
     void UnLockTrophy()
     {
         Trophies.TryUnlock(233715);
