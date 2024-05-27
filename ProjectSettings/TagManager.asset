@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Resource
   - CentralBase
+  - Structure
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 
