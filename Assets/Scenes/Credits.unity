@@ -359,7 +359,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 252880857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55c526c793390124e85e84f811a82ab1, type: 3}
+  m_Script: {fileID: 11500000, guid: 3daa406786dc12242992baa505d6a693, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &335467540
@@ -982,8 +982,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 252880861}
-        m_TargetAssemblyTypeName: LoadLevels, Assembly-CSharp
-        m_MethodName: LoadScene1
+        m_TargetAssemblyTypeName: Credits, Assembly-CSharp
+        m_MethodName: LoadScene2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1614,6 +1614,7 @@ GameObject:
   - component: {fileID: 2110423069}
   - component: {fileID: 2110423068}
   - component: {fileID: 2110423067}
+  - component: {fileID: 2110423071}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1712,6 +1713,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &2110423071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110423065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de4b005d98bcab4ba2e311585764555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texts:
+  - {fileID: 1850586532}
+  - {fileID: 199352508}
+  - {fileID: 335467541}
+  - {fileID: 983384343}
+  - {fileID: 1407632874}
+  - {fileID: 2102180194}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
